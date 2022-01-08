@@ -10,3 +10,62 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.stem{
+    margin:auto;
+    text-align: center;
+    width:15px;
+    height:150px;
+    background:black;
+}
+.lightHousing{
+    padding:10px;
+    margin:auto;
+    background: black;
+    width:125px;
+    height:300px;
+    border-radius:10px;
+}
+.light{
+    border-color:black;
+    border-style:solid;
+    margin:auto;
+    border-radius: 100%;
+    width:90px;
+    height: 90px;
+    opacity:50%;
+}
+.red{
+    background:red;
+}
+.yellow{
+    background:yellow;
+}
+.green{
+    background:rgb(3, 250, 3);
+}
+
+.greenBright{
+    opacity:100%;
+    border:5px solid rgb(3, 250, 3);
+    box-shadow:0px 0px 25px 10px rgb(3, 250, 3);
+}
+.yellowBright{
+    opacity:100;
+    border:5px solid yellow;
+    box-shadow:0px 0px 25px 10px yellow;
+}
+.redBright{
+    opacity:100;
+    border:5px solid red;
+    box-shadow:0px 0px 25px 10px red;
+}
+.bigDiv{
+    text-align: center;
+}
+.changeLight{
+    border:5px solid black;
+    color:black;
+    border-radius:10px;
+    font-size:25px;
+    background:rgb(175, 173, 173)
+}
