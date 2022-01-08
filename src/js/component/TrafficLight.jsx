@@ -11,16 +11,19 @@ const TrafficLight = () => {
 			<div className="lightHousing">
 				<div
 					onClick={() => setBright("brightRed")}
-					className={`red light ${hColor == "red" && "selected"}
-					${blight == "brightRed" && "redBright"}`}></div>
+					className={`red light ${
+						blight == "brightRed" && "redBright"
+					}`}></div>
 				<div
 					onClick={() => setBright("brightYellow")}
-					className={`yellow light ${hColor == "yellow" && "selected"}
-					${blight == "brightYellow" && "yellowBright"}`}></div>
+					className={`yellow light ${
+						blight == "brightYellow" && "yellowBright"
+					}`}></div>
 				<div
 					onClick={() => setBright("brightGreen")}
-					className={`green light ${hColor == "green" && "selected"}
-					${blight == "brightGreen" && "greenBright"}`}></div>
+					className={`green light ${
+						blight == "brightGreen" && "greenBright"
+					}`}></div>
 			</div>
 		</div>
 	);

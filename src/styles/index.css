@@ -43,21 +43,20 @@
 .green{
     background:rgb(3, 250, 3);
 }
-
-.greenBright{
-    opacity:100%;
-    border:5px solid rgb(3, 250, 3);
-    box-shadow:0px 0px 25px 10px rgb(3, 250, 3);
+.redBright{
+    opacity:100;
+    border:5px solid red;
+    box-shadow:0px 0px 25px 10px red;
 }
 .yellowBright{
     opacity:100;
     border:5px solid yellow;
     box-shadow:0px 0px 25px 10px yellow;
 }
-.redBright{
-    opacity:100;
-    border:5px solid red;
-    box-shadow:0px 0px 25px 10px red;
+.greenBright{
+    opacity:100%;
+    border:5px solid rgb(3, 250, 3);
+    box-shadow:0px 0px 25px 10px rgb(3, 250, 3);
 }
 .bigDiv{
     text-align: center;
